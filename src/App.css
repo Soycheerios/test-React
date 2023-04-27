@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Navigation styles */
+#navigation {
+  background-color: rgb(94, 81, 81);
+  overflow: hidden;
+}
+
+.Home:hover {
+  background-color: gray;
+}
+
+.Github:hover {
+  background-color: gray;
+}
+
+.Instagram:hover {
+  background-color: gray;
+}
+
+.LinkdIn:hover {
+  background-color: gray;
+}
+
+#navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navigation li {
+  float: left;
+}
+
+#navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+/* LoginForm styles */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  border: 10px solid;
+  border-color:goldenrod;
+  padding: 20px;
+}
+
+.login-form__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.loginButton:hover {
+  background-color: darkgray;
+}
+
+.forgotButton:hover {
+  background-color: darkgray;
+}
+
+.loginButton {
+  text-align: center;
+}
+
+.forgotButton {
+  text-align: center;
+}
